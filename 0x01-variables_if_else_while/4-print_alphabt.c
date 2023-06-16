@@ -1,14 +1,13 @@
 #include <stdio.h>
+/**
+* main - Entry point
+*
+* description: 'the program's description'
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	/**
-	 * main - Entry point
-	 *
-	 * description: 'the program's description'
-	 * @parameter: describe the parameter
-	 *
-	 * Return: Always 0 (Success)
-	 */
 	char alphabet;
 
 	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
