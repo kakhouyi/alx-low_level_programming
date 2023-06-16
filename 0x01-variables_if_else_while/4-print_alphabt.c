@@ -10,7 +10,7 @@ int main(void)
 	{
 		/*print the value of the variabe*/
 
-		putchar(alphabet);
+		if(alphabet != 'e' && alphabet != 'q') putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
