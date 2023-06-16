@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(void)
 {
@@ -6,12 +6,16 @@ int main(void)
 
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		/*print the value of the variabe*/
 
-		if(alphabet != 'e' && alphabet != 'q') putchar(alphabet);
+		if (alphabet != 'e' && alphabet != 'q')
+		{
+			putchar(alphabet);
+		}
 	}
-	putchar('\n');
+
+	putchar("\n");
 	return (0);
 }
