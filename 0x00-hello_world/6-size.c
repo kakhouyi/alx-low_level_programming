@@ -6,13 +6,11 @@
  */
 main(void)
 {
-	printf("char is %2d bytes \n", sizeof(char));
-	printf("int is %2d bytes \n", sizeof(int));
-	printf("long int is %2d bytes \n", sizeof(long int));
-	printf("long long int is %2d bytes \n", sizeof(double));
-	printf("signed int is %2d bytes \n", sizeof(signed int));
-	printf("unsigned int is %2d bytes \n", sizeof(unsigned int));
-	printf("float is %2d bytes \n", sizeof(float));
+	printf("Size of a char: %2d byte(s) \n", sizeof(char));
+	printf("Size of an int: %2d byte(s) \n", sizeof(int));
+	printf("Size of a long int: %2d byte(s) \n", sizeof(long int));
+	printf("Size of a long long int:  %2d byte(s) \n", sizeof(double))
+	printf("Size of a float: %2d byte(s) \n", sizeof(float));
 	printf("\n");
 	return (0);
 }
