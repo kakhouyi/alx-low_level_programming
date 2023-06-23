@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers - function shows the upper
+ * print_most_numbers - function shows the upper
  * Description, print number
  * Return: Always 0.
  */
