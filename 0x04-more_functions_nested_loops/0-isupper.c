@@ -2,21 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * _isupper - function shows the upper
  * @c: is caracter
  * Return: Always 0.
  */
-int _isupper(int c);
-{
-	char c;
+int _isupper(int c)
 
-	for (c = 'a'; c >= 'z'; c++)
-	if(l == c) 
-	{ 
+{
+
+	if (c >= 65 && c <= 90)
+	{
 	return (0);
 	}
-	else
-	{
-	return (1)
-	}
+	return (1);
 }
